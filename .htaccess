@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{HTTP_HOST} ^loan\.experienciairp\.com$
+RewriteRule ^cptest$ "http\:\/\/cpanel\.net\/" [R=301,L]
+</IfModule>
+
